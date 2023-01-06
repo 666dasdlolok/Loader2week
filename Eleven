@@ -11,7 +11,7 @@ local Window = Rayfield:CreateWindow({
 	},
         Discord = {
         	Enabled = true,
-        	Invite = "dwuSS95ecF", -- The Discord invite code, do not include discord.gg/
+        	Invite = "GKGG2Gje", -- The Discord invite code, do not include discord.gg/
         	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
 	KeySystem = true, -- Set this to true to use our key system
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
 		FileName = "SiriusKey",
 		SaveKey = false,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "adunsdfnnh4234gsfd5"
+		Key = "dsfju84hn5z7nnndfz"
 	}
 })
 
@@ -76,17 +76,20 @@ local Button = Tab:CreateButton({
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/PNW/main/Main",true))();
 	wait(1)
 
-	elseif game.PlaceId == 6461766546 then
+		elseif game.PlaceId == 6461766546 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/Ahs/main/Main",true))();
 	wait(1)
 
-	elseif game.PlaceId == 10446125875then
+	elseif game.PlaceId == 10446125875 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/AnimeFruitSim/main/Main",true))();
+	wait(1) 
+
+	elseif game.PlaceId == 3177438863 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/DB/main/Main",true))();
 	wait(1)
 
-
     end
-    wait(2)
+    wait(1)
     Rayfield:Destroy()
 end,
 })

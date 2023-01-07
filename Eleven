@@ -88,6 +88,10 @@ local Button = Tab:CreateButton({
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/DB/main/Main",true))();
 	wait(1)
 
+	elseif game.PlaceId == 4934471106 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/MHM/main/Main",true))();
+	wait(1)
+	
     end
     wait(1)
     Rayfield:Destroy()
